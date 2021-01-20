@@ -1,3 +1,6 @@
+
+
+
 (async() =>{
     const MainContainer = document.querySelector('main')
     const url = `https://platzi-avo.vercel.app/api/avo`
@@ -22,4 +25,5 @@
        items.push(container)
     });
     MainContainer.append(...items)
+    W
 })()
